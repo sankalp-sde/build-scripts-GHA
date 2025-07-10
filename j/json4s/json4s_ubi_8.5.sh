@@ -26,7 +26,7 @@ HOME_DIR=${PWD}
 yum update -y
 yum install -y curl git java-1.8.0-openjdk-devel nodejs nodejs-devel clang wget tar
 
-export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.362.b09-2.el8_7.ppc64le
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.362.b09-2.el8_7.s390x
 export PATH=$JAVA_HOME/bin:$PATH
 java -version
 
