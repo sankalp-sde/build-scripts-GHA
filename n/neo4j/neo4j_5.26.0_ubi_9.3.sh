@@ -31,7 +31,7 @@ ulimit -n 65536
 
 #Install RHEL deps
 yum install java-21-openjdk-devel git wget hostname procps-ng -y \
-    && curl -o /usr/local/bin/gosu -SL "https://github.com/tianon/gosu/releases/download/${GOSU_VERSION}/gosu-ppc64el" \
+    && curl -o /usr/local/bin/gosu -SL "https://github.com/tianon/gosu/releases/download/${GOSU_VERSION}/gosu-s390x" \
     && chmod +x /usr/local/bin/gosu \
     && gosu nobody true
 export JAVA_HOME=$(compgen -G '/usr/lib/jvm/java-21-openjdk-*')
