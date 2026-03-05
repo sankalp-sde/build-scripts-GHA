@@ -9,7 +9,7 @@ if [ "$build_docker" == true ]; then
 
 	echo "Fetching latest Trivy version..."
 	TRIVY_VERSION=$(curl -s https://api.github.com/repos/aquasecurity/trivy/releases/latest | grep -Po '"tag_name": "\K.*?(?=")')
-	FILE_NAME="trivy_${TRIVY_VERSION#v}_Linux-PPC64LE.tar.gz"
+	FILE_NAME="trivy_${TRIVY_VERSION#v}_Linux-S390X.tar.gz"
 	CHECKSUM_FILE="trivy_${TRIVY_VERSION#v}_checksums.txt"
 
 	echo "Downloading Trivy binary..."
