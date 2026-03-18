@@ -1,5 +1,5 @@
 {
-    "maintainer": "Yash Ratawa",
+    "maintainer": "Srivatsa",
     "package_name": "librdkafka",
     "github_url": "https://github.com/confluentinc/librdkafka.git",
     "version": "2.10.1",
